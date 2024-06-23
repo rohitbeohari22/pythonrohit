@@ -10,5 +10,3 @@
 # my_tuple=("rohit",20,30,70,90,"patel")
 # print(my_tuple.index("patel"))
 
-
-

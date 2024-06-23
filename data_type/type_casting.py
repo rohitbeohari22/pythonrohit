@@ -23,8 +23,8 @@
 # collection=(10,20,30,40,50)
 # print(list(collection))
 
-
-
+# find ascii value  to char
+print(chr(65))
 
 
 
