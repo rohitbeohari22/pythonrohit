@@ -15,10 +15,10 @@
 
 my_list1=[7,8]
 my_list2=[55,66,10,6,9]
-# my_list2.append(50)  #last me add hota hai
-# print(my_list2)
-# my_list1.extend(my_list2)
-# print(my_list1)
+my_list2.append([10,20,30,40]) #last me add hota hai
+print(my_list2)
+my_list1.extend(my_list2)
+print(my_list1)
 # my_list1.pop ()
 # print(my_list1)
 
@@ -31,5 +31,14 @@ my_list2=[55,66,10,6,9]
 # my_list2.sort()
 # print(my_list2)
 
-my_list2.sort(reverse=True)
-print(my_list2)
+# my_list2.sort(reverse=True)
+# print(my_list2)
+
+x=(10,20,30,40,55)
+
+y=(10,20,40)
+
+a=list(x)
+b=list(y)
+a.extend(b)
+print(tuple(a))
